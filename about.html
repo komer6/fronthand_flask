@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>About Us</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Library Management</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/customers">Customers</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>About Us</h1>
+        <p>The Library Management System is designed to help manage the borrowing and returning of books in a library. Our goal is to provide a user-friendly interface that streamlines the process for both staff and patrons.</p>
+        <h2>Features:</h2>
+        <ul>
+            <li>Manage books: Add, view, and delete books in the library.</li>
+            <li>Manage customers: Add and view customer details.</li>
+            <li>Track loans: Keep track of which books are loaned out and their return dates.</li>
+            <li>Check for late loans: Identify which loans are overdue.</li>
+        </ul>
+        <h2>Contact Us:</h2>
+        <p>If you have any questions or feedback, feel free to reach out to us!</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Library Management System</p>
+    </footer>
+</body>
+</html>
